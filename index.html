@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ajax</title>
+    <!--style link-->
+    <link rel="stylesheet" href="all.min.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+  </head>
+  <body style="background-color: rgb(162, 183, 197)">
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light small shadow mb-3"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">Meals</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" role="button">pizza</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" role="button">carrot</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" role="button">corn</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" role="button">chicken</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" role="button">potato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="header"
+      style="margin-top: 150px !important"
+      class="header w-75 m-auto bg-white small shadow p-5 mt-5 rounded"
+    >
+      <h1 class="text-center" style="font-size: 60px; font-family: cursive">
+        Meals
+      </h1>
+    </div>
+    <section>
+      <div class="container">
+        <div class="row g-4" id="rowData"></div>
+      </div>
+    </section>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
